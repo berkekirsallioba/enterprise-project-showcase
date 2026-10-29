@@ -37,7 +37,7 @@ Warehouse and operations teams need to identify orders, process scanned products
 
 ---
 
-### 2. WolvoxOrderSplit — Enterprise Order Splitting
+### 2. [WolvoxOrderSplit — Enterprise Order Splitting](https://github.com/berkekirsallioba/wolvoxordersplit-showcase)
 
 **Domain:** Order Management · Business Rules · Operational Workflows
 
@@ -53,6 +53,7 @@ Businesses sometimes need to divide existing orders into separate operational gr
 - Business-rule validation and duplicate-operation safeguards
 - ERP-connected order processing
 - Optional order photo management
+- Read-only after-sales service and appointment workspaces with mobile field details
 - Browser-based access, including controlled external-device workflows
 - Order presentation, printing, and release-candidate validation
 
