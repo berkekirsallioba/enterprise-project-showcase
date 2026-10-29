@@ -114,7 +114,7 @@ My broader enterprise software experience also includes:
 
 - **Wolvox Excel-to-ERP Migration:** Data mapping, transformation, and ERP data migration workflows
 - **WolvoxFxCariHareketReport:** Financial and foreign-currency account reporting
-- **Wolvox Task Tracking:** Business task and workflow management
+- **[Görev Takip](https://github.com/berkekirsallioba/gorev-takip-showcase):** ERP-integrated task coordination, recurring work and desktop reminders. Documentation-only showcase with synthetic UI data; production approval remains pending.
 - **Financial Cockpit:** Financial information and reporting interfaces
 - **ERP Customizations:** Business-specific application and integration solutions
 - **BoardOS & DeveloperOS:** Structured AI-assisted development and software delivery workflows
