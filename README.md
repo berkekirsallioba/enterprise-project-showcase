@@ -14,7 +14,7 @@ My work focuses on connecting business processes with modern software solutions,
 
 ## Featured Projects
 
-### 1. OrderFlow — Order Preparation & Warehouse Operations
+### 1. [OrderFlow — Order Preparation & Warehouse Operations](https://github.com/berkekirsallioba/orderflow-showcase)
 
 **Domain:** Order Fulfillment · Barcode Workflows · ERP Integration
 
@@ -33,7 +33,7 @@ Warehouse and operations teams need to identify orders, process scanned products
 - Transaction consistency and recovery-oriented workflow design
 - Performance analysis and iterative interface improvements
 
-**Project Stage:** Developed and tested through iterative validation. Further development is driven by operational feedback.
+**Project Stage:** Application and installer built and tested; the latest Preparation UI update awaits installation and final visual acceptance.
 
 ---
 
