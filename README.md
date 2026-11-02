@@ -86,26 +86,27 @@ Operational ERP data can be difficult to interpret quickly. Decision-makers need
 
 ---
 
-### 4. Tekmert ERP — Enterprise Application Development
+### 4. [Tekmert ERP — Web-first Enterprise Workbench](https://github.com/berkekirsallioba/tekmert-erp-showcase)
 
-**Domain:** ERP Systems · Business Processes · Reporting · Application Architecture
+**Domain:** ERP Systems · Business Reporting · Context-Aware Workflows
 
-Tekmert ERP is an enterprise application project focused on business workflows and ERP data integration.
+Tekmert ERP is an independently developed web application for selected ERP reporting, scoped entity lookups, and structured transaction drafts.
 
 **Business Problem**
 
-Enterprise users need accessible interfaces for navigating business information, viewing operational records, and carrying out structured workflows.
+Enterprise users need readable operational information and consistent company, branch, and accounting-period context, without confusing an application draft with a committed financial transaction.
 
 **Engineering Work**
 
-- Enterprise application architecture and user interfaces
-- Firebird-based ERP data access
-- Reporting and record-detail workflows
-- Screens for quotations, orders, and invoice-related processes
-- Controlled development of complex business workflows
-- Validation-driven integration design
+- C# / .NET 10 and ASP.NET Core modular backend with a React / TypeScript workbench
+- Selected Firebird-backed ERP reads, with separate application-owned SQL Server / EF Core persistence
+- Account, stock, service, and package lookups; quotation, order, invoice, and account-report surfaces
+- Collection and disbursement draft workbenches with explicitly disabled native commit
+- Context isolation, keyboard/responsive interaction, and evidence-driven validation
 
-**Project Stage:** Active development. Verified read functionality is available for selected workflows. Some native ERP write operations remain subject to additional validation and are not presented as production-ready.
+**Project Stage:** Active development. Selected reads and bounded drafts are implemented; broad validation has open failures. Native ERP writes remain blocked, and production readiness is not claimed.
+
+[View the documentation-only showcase and synthetic application screenshots](https://github.com/berkekirsallioba/tekmert-erp-showcase)
 
 ---
 
